@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<style>
+  body{font-family: 'Montserrat', sans-serif;}
+  table.two{background-color: orangered; color: white; border-radius: 5px;}
+  body{background: url("BACK.png");background-repeat: no-repeat;background-size: cover; margin: 0%;}
+table.one{background-color: white; width: 100%; border-top: solid;border-width: 5px; border-color: orangered;}
+table.three{background-color: white; margin-left: 10%}
+td.one{border-bottom-style: solid; border-width: thin; border-color: lightgray;}
+
+div#navbar {
+        background-color: orangered;
+        width: 80%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    div#navbar div {
+        padding: 0.5rem 1rem;
+        transform: scale(1);    /*anim*/
+        transition: 0.2s;       /*anim*/
+    }                          
+    
+    div#navbar div:hover {      /*anim*/
+        transform: scale(1.1);  /*anim*/
+        transition: 0.2s;       /*anim*/
+    }                           /*anim*/
+    a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: none;
+    color: #060AC3;
+}
+a:active {
+    text-decoration: none;
+}
+
+td.two :hover {      /*anim*/
+    transform: scale(1.1);  /*anim*/
+    transition: 0.2s;       /*anim*/
+}                           /*anim*/
+</style>
+</head>
+<body>
+<table class="one" width="1174" height="90">
+  <tbody>
+    <tr>
+      <td width="80"><img src="logo hotel1.png" width="80" height="76" alt=""/></td>
+      <td width="910"><img src="Corsiva hotel.png" width="250" height="59" alt=""/>
+        </td>
+      <td width="179"><img src="clipart4338324.png" width="20" height="20" alt=""/>CALL US TODAY<br>
+      &nbsp; &nbsp; &nbsp;(84)-868 868 888</td>
+    </tr>
+  </tbody>
+</table>
+<center><div id="navbar">
+  <div><img src="POINT.png" width="8px" alt=""> <a href="../Hotel index/index.html">HOME</a></div>
+    <div><img src="POINT.png" width="8px" alt=""> <a href="../Hotel Explore/Hotel explore.html">EXPLORE</a></div>
+    <div><img src="POINT.png" width="8px" alt=""><a href="../Room page/Room.html"> ROOM</a></div>
+    <div><img src="POINT.png" width="8px" alt=""> <span style="color: #FFFFFF"><a href="booking page.html">BOOKING</a></span></div>
+    <div><img src="POINT.png" width="8px" alt=""> <a href="../Gallery page/Gallery.html">GALLERY</a></div>
+    <div><img src="POINT.png" width="8px" alt=""> <a href="../Contact Page/Contact.html">CONTACT</a> </div> 
+    </center><br><br><br>
+    <table width="483" height="508"  class="three">
+          <tbody>
+            <tr>
+              <td class="one" height="66.8125" colspan="2"><h2><span style="color: #0451C9">&nbsp; &nbsp; &nbsp;BOOK NOW</span>&nbsp;</h2></td>
+            </tr>
+            <tr>
+              <td height="40" colspan="2">&nbsp; &nbsp;Name:</td>
+            </tr>
+            <tr>
+              <td class="one" height="39"><label for="email">&nbsp;</label>
+              <input type="Name" name="Name" id="Name"><br>                
+              &nbsp; First Name                
+              &nbsp;</td>
+              <td class="one"> <label for="email">&nbsp;</label>
+              <input type="Name" name="Name" id="Name"><br>
+              &nbsp; Last Name&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="one" height="53">&nbsp; Email:</td>
+              <td class="one"><label for="email">&nbsp;</label>
+              <input name="email" type="email" id="email" placeholder="ex.myname@example.com"></td>
+            </tr>
+            <tr>
+              <td class="one" height="47">&nbsp; Room Type:</td>
+              <td class="one"><label for="select">&nbsp;</label>
+                <select name="select" id="select">
+                  <option>Please Select</option>
+                  <option>Luxury Room</option>
+                  <option>Deluxe Room</option>
+                  <option>Business Class Room</option>
+                  <option>Suite</option>
+                  <option>Presidential Suite</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td class="one" height="47">&nbsp; Number of Guests:</td>
+              <td class="one"><label for="number">&nbsp;</label>
+              <input type="number" name="number" id="number"></td>
+            </tr>
+            <tr>
+              <td class="one" height="45">&nbsp; Arrival Date &amp; Time:</td>
+              <td class="one"><label for="date">&nbsp;</label>
+              <input type="date" name="date" id="date"><label for="time">&nbsp;</label>
+              <input type="time" name="time" id="time"><label for="select2">&nbsp;</label>
+                <select name="select2" id="select2">
+                  <option>AM</option>
+                  <option>PM</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td class="one" height="46">&nbsp; Departure Date:</td>
+              <td class="one">&nbsp;<label for="date2"></label>
+              <input type="date" name="date2" id="date2"></td>
+            </tr>
+			  <tr>
+              <td class="two" colspan="2" align="center" valign="bottom"><a href="WORK IN PROGRESS.html"><img src="proceed1.png" width="120" height="42" alt=""/></a></td>
+            </tr>
+          </tbody>
+      </table>
+</body>
+</html>
